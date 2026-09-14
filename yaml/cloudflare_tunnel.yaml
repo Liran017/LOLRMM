@@ -1,9 +1,9 @@
 Name: CloudFlare Tunnel
 Category: RAT
-Description: CloudFlare Tunnel is a remote monitoring and management (RMM) tool. More information will be added as it becomes available.
+Description: CloudFlare Tunnel is a remote monitoring and management (RMM) tool. More information will be added as it becomes available. Threat actors have abused temporary TryCloudflare tunnels to stage and deliver remote-access malware through phishing campaigns.
 Author: ''
 Created: '2024-08-02'
-LastModified: '2024-08-02'
+LastModified: '2024-09-14'
 Details:
     Website: 'https://cloudflare.com/products/tunnel/'
     PEMetadata:
@@ -31,4 +31,7 @@ Detections:
       Description: Detects potential processes activity of CloudFlare Tunnel RMM tool
 References:
     - https://cloudflare.com/products/tunnel/
-Acknowledgement: []
+    - https://www.proofpoint.com/us/blog/threat-insight/threat-actor-abuses-cloudflare-tunnels-deliver-rats
+Acknowledgement:
+    - Person: Liran Ravich
+      Handle: Liran017
