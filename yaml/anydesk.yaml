@@ -6,12 +6,12 @@ Description: 'AnyDesk is a popular remote desktop software that enables users to
 
     primary goal of facilitating remote work, technical support, and collaboration between
 
-    individuals and teams.
+    individuals and teams. It has been observed being deployed by ransomware actors to maintain persistent remote access to compromised systems.
 
     '
 Author: Ali Alwashali, Nasreddine Bencherchali
 Created: '2023-09-29'
-LastModified: '2023-09-29'
+LastModified: '2026-09-14'
 Details:
     Website: https://anydesk.com/en
     PEMetadata:
@@ -173,6 +173,10 @@ References:
     - https://www.synacktiv.com/publications/legitimate-rats-a-comprehensive-forensic-analysis-of-the-usual-suspects.html
     - https://github.com/mthcht/awesome-lists/tree/79ced75eebe53bcabf1235b3c17eb11788875482/Lists/RMM/anydesk
     - https://ruler-project.github.io/ruler-project/RULER/remote/AnyDesk/
+    - https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-025a
+    - https://thedfirreport.com/2024/04/29/from-icedid-to-dagon-locker-ransomware-in-29-days/
+    - https://thedfirreport.com/2022/11/28/emotet-strikes-again-lnk-file-leads-to-domain-wide-ransomware/
+
 Acknowledgement:
     - Person: Théo Letailleur
       Handle: in/theosyn
@@ -180,6 +184,8 @@ Acknowledgement:
       Handle: '@ali_alwashali'
     - Person: Nasreddine Bencherchali
       Handle: '@nas_bench'
+    - Person: Liran Ravich
+      Handle: Liran017
 CodeSigning:
     certificates:
         - signer_name: AnyDesk Software GmbH
