@@ -3,9 +3,10 @@ Category: RMM
 Description: |
     Action1 is a powerful Remote Monitoring and Management(RMM) tool that enables users to execute commands, scripts, and binaries.
     Through the web interface of action1, the administrator must create a new policy or an app to establish remote execution and then points that the agent is installed.
+    It has been observed being abused by ransomware and espionage actors for persistent remote access, command execution, and lateral movement.
 Author: '@kostastsale'
 Created: '2024-08-03'
-LastModified: '2024-08-03'
+LastModified: '2026-09-14'
 Details:
     Website: https://www.action1.com/
     PEMetadata:
@@ -102,9 +103,16 @@ References:
     - https://www.action1.com/documentation/
     - https://twitter.com/Kostastsale/status/1646256901506605063?s=20
     - https://ruler-project.github.io/ruler-project/RULER/remote/Action1/
+    - https://www.bleepingcomputer.com/news/security/hackers-start-abusing-action1-rmm-in-ransomware-attacks/
+    - https://www.group-ib.com/blog/muddywater-espionage/
+    - https://www.withsecure.com/en/resources-hub/w-labs/email-delivered-rmm/
+
 Acknowledgement:
     - Person: Kostas
       Handle: '@kostastsale'
+    - Person: Liran Ravich
+      Handle: Liran017
+
 CodeSigning:
     certificates:
         - signer_name: Action1 Corporation
