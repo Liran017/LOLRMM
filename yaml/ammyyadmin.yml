@@ -1,6 +1,6 @@
 Name: Ammyy Admin
 Category: RMM
-Description: Ammyy Admin is a remote monitoring and management (RMM) tool. Ammyy admin has been used by scammers to gain remote access to victims' computers. The tool is legitimate and is used by IT professionals for remote management. However, it has been abused by scammers to gain unauthorized access to victims' computers. The tool is free for personal use, but a license is required for commercial use. The tool allows for remote desktop control, file transfer, voice chat, and more. The tool is available for Windows only. will be added as it becomes available.
+Description: Ammyy Admin is a remote monitoring and management (RMM) tool. Ammyy admin has been used by scammers to gain remote access to victims' computers. The tool is legitimate and is used by IT professionals for remote management. However, it has been abused by scammers to gain unauthorized access to victims' computers. The tool is free for personal use, but a license is required for commercial use. The tool allows for remote desktop control, file transfer, voice chat, and more. The tool is available for Windows only. will be added as it becomes available. It has also been installed by threat actors targeting compromised MS-SQL servers to obtain unauthorized remote access.
 Author: '@kostsatsale'
 Created: '2024-05-08'
 LastModified: '2024-05-08'
@@ -94,6 +94,9 @@ Detections:
 References:
     - https://www.ammyy.com/en/admin_security.html
     - https://www.ammyy.com/en/admin_mu.html
+    - https://asec.ahnlab.com/en/87606/
 Acknowledgement:
     - Person: Kostas
       Handle: '@kostastsale'
+    - Person: Liran Ravich
+      Handle: Liran017
